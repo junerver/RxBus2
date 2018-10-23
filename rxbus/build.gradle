@@ -10,7 +10,7 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "3.0.0"
-        multiDexEnabled true // 65535限制
+        multiDexEnabled false // 65535限制
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     dataBinding {
